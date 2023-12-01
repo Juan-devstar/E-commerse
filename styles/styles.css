@@ -47,10 +47,16 @@ nav{
     justify-content: right;
 }
 
+#NOSE{
+    position: relative;
+    left: 900px;
+}
+
 .dropdown {
     color: white;
     font-size: 20px;
     position: relative;
+    right: 20px;
     display: inline-block;
     margin: 0 20px;
 }
@@ -59,6 +65,7 @@ nav{
     color: rgb(0, 0, 0);
     display: none;
     position: absolute;
+    right: -30px;
     background-color: #f9f9f9;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 16px;
@@ -74,6 +81,7 @@ nav{
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    position: relative;
 }
 
 .dropdown-content a:hover {
@@ -95,15 +103,21 @@ nav{
     background-color: #eee5d5;
     border-radius: 100%;
     text-align: center;
-    transition: 0.2s;
     transform: rotate(-20deg);
+    padding-left: 20px;
     position: relative;
-    left: 1200px;
+    right: 270px;
 }
 
 .site-header__badge, .site-header__badge:hover {
     color: #222222;
     text-decoration: none;
+}
+
+svg{
+    position: relative;
+    bottom: 40px;
+    right: 120px;
 }
 
 
@@ -113,8 +127,8 @@ nav{
             transform: translateX(0);
   }
   100% {
-    -webkit-transform: translateX(calc(-250px * 7));
-            transform: translateX(calc(-250px * 7));
+    -webkit-transform: translateX(calc(-300px * 10));
+            transform: translateX(calc(-300px * 10));
   }
 }
 
@@ -124,21 +138,21 @@ nav{
             transform: translateX(0);
   }
   100% {
-    -webkit-transform: translateX(calc(-250px * 7));
-            transform: translateX(calc(-250px * 7));
+    -webkit-transform: translateX(calc(-300px * 10));
+            transform: translateX(calc(-300px * 10));
   }
 }
 .slider {
   background: white;
   position: relative;
-  top: 100px;
-  height: 100px;
+  top: 50px;
+  height: 400px;
 
 }
 .slider::before, .slider::after {
   background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
   content: "";
-  height: 100px;
+  height: 400px;
   position: absolute;
   width: 200px;
   z-index: 2;
@@ -162,4 +176,42 @@ nav{
 .slider .slide {
   height: 50px;
   width: 250px;
+}
+
+.Nose1{
+    font-size: 13px;
+    color: #999999;
+}
+
+.Nose11{
+    font-size: 13px;
+    color: #999999;
+    position: relative;
+    left: 745px;
+    bottom: 17px;
+}
+
+.Nose{
+    font-weight: bold;
+    line-height: 1.15;
+    text-transform: uppercase;
+    color: #373737;
+    border-bottom: 2px solid transparent;
+}
+
+.Arriba{
+    position: relative;
+    bottom: 20px;
+    left: 600px;
+}
+
+.Abajo{
+    position: relative;
+    top: 50px;
+    right: 250px;
+}
+
+#img{
+    position: relative;
+    left: 400px;
 }
